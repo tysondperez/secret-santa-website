@@ -1,9 +1,9 @@
-let answers = ["Answer1", "Answer2", "Answer3"];
-let digits = ["Digit1", "Digit2", "Digit3"];
+let answers = ["PUZZLE", "712731214", "OPEN SESAME"];
+let digits = ["5", "7", "4"];
 
 function handleSubmit() {
-    const input = document.getElementById("userInput")
-    const text = input.value;
+    const input = document.getElementById("userInput");
+    const text = input.value.toUpperCase();
     if (text.trim() === "") return;
     input.value = "";
     input.focus();
